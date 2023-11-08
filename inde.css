@@ -1,0 +1,121 @@
+:root {
+  --color-primary: #4aab3b;
+  --color-secondary: #1f1f25;
+  --color-body: #6e777d;
+  --color-heading-1: #1f1f25;
+  --color-white: #fff;
+  --color-success: #3eb75e;
+  --color-danger: #ff0003;
+  --color-warning: #ff8f3c;
+  --color-info: #1ba2db;
+  --color-facebook: #3b5997;
+  --color-twitter: #1ba1f2;
+  --color-youtube: #ed4141;
+  --color-linkedin: #0077b5;
+  --color-pinterest: #e60022;
+  --color-instagram: #c231a1;
+  --color-vimeo: #00adef;
+  --color-twitch: #6441a3;
+  --color-discord: #7289da;
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
+  --p-black: 900;
+  --s-light: 300;
+  --s-regular: 400;
+  --s-medium: 500;
+  --s-semi-bold: 600;
+  --s-bold: 700;
+  --s-extra-bold: 800;
+  --s-black: 900;
+  --transition: 0.3s;
+  --font-primary: "Exo", sans-serif;
+  --font-secondary: "Albert Sans", sans-serif;
+  --font-size-b1: 16px;
+  --font-size-b2: 16px;
+  --font-size-b3: 22px;
+  --line-height-b1: 26px;
+  --line-height-b2: 26px;
+  --line-height-b3: 1.7;
+  --h1: 60px;
+  --h2: 48px;
+  --h3: 30px;
+  --h4: 26px;
+  --h5: 24px;
+  --h6: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.mycontainer {
+  width: 95%;
+  margin: 0 auto;
+}
+/* logo */
+
+.logo {
+  width: 257px;
+}
+
+/* Top nav */
+header .tonav {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.tonav .mycontainer div ul li a {
+  color: #fff;
+}
+
+.tonav .mycontainer nav {
+  margin-bottom: -1%;
+  padding-bottom: 8px;
+}
+
+.tonav .mycontainer .navbar-nav {
+  margin-bottom: -7px;
+}
+
+.secondnav-menu form button {
+    margin-right: 33px;
+  background-color: var(--color-primary);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  font-weight: 500;
+  padding-right: 100px;
+  padding-right: 142px;
+}
+
+.secondnav-menu ul li {
+  padding-left: 15px;
+  font-weight: 500;
+  color: #1f1f25;
+}
+
+.secondnav-menu ul li a {
+  color: #1f1f25;
+}
+
+.secondnav-menu form li a {
+  color: var(--color-primary);
+}
+.secondnav-menu form li {
+  list-style: none;
+}
+
+.secondnav-menu form {
+  gap: 32px;
+  color: var(--color-primary);
+}
